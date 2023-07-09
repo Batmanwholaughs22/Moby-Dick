@@ -29,8 +29,8 @@ def scan_dockerfile(dockerfile_path):
         print("No shells detected in the Dockerfile.")
 
 if len(sys.argv) < 2:
-    print("Please provide the path to the Dockerfile as a command-line argument.")
-    print("Example: python3 docker_scanner.py /path/to/Dockerfile")
+    print("Please provide the path to the Dockerfile")
+    print("Example: python3 docker_scanner.py /path/Dockerfile")
     sys.exit(1)
 
 dockerfile_path = sys.argv[1]
